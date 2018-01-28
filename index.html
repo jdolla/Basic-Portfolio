@@ -8,53 +8,60 @@
 </head>
 
 <body background="./assets/images/concrete-texture.png">
-    <section id="TopBanner">
-        <!-- This is my "heading" where the menu and name box are -->
-        <h1 class="NameLabel">Jason Kososki</h1>
-        <ul>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Portfolio</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-    </section>
-    <section id="MainContent">
-        <!-- This is the "middle" section -->
-        <h2 class="MiddleHeader">
-            About Me
-        </h2>
-        <hr/>
-        <img src="./assets/images/profile_picture.jpg" </section>
-    </section>
-    <section id="SideBar">
-        <h2>Connect with Me</h2>
-        <hr/>
-        <ul>
-            <li>
-                <a href="#">
-                    <img alt="GitHub" src="./assets/images/github.png" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img alt="LinkedIn" src="./assets/images/linkedin.png">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img alt="StackOverflow" src="./assets/images/stackoverflow.png">
-                </a>
-            </li>
-        </ul>
-    </section>
-    <section id="BottomBanner">
-        <!-- footer section -->
-    </section>
+    <div id="EntireContent">
+        <div id="TopBanner">
+            <!-- This is my "heading" where the menu and name box are -->
+            <div id="NameContainer">
+                <div id="NameLabel">Jason Kososki</div>
+            </div>
+            <div id="NavButtons">
+                <ul class="NavUl">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li id="CenterNav">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="MainContent">
+            <!-- This is the "middle" section -->
+            <h2 class="MiddleHeader">
+                About Me
+            </h2>
+            <hr/>
+            <img src="./assets/images/profile_picture.jpg" </section>
+        </div>
+        <div id="SideBar">
+            <h2>Connect with Me</h2>
+            <hr/>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img alt="GitHub" class="bug" src="./assets/images/github.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img alt="LinkedIn" class="bug" src="./assets/images/linkedin.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img alt="StackOverflow" class="bug" src="./assets/images/stackoverflow.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="BottomBanner">
+            <!-- footer section -->
+            footer stuff
+        </div>
+    </div>
 </body>
 
 </html>
