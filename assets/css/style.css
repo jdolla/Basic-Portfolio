@@ -1,3 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
 .segment {
     width: 100%;
 }
@@ -194,4 +207,23 @@
     border-top-color: #4ca8a4;
     border-top-width: 5px;
     color: #b3b3a6;
+}
+
+#contactForm{
+    color: #8e97a0;
+    font-size: 18px;
+}
+
+input{
+    width: 99%;
+    padding:2px;
+    margin: 5px 0 10px 0;
+    color: #8e97a0;
+}
+
+textarea {
+    width: 99%;
+    padding:2px;
+    margin: 5px 0 10px 0;
+    color: #8e97a0;  
 }
