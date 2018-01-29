@@ -226,4 +226,39 @@ textarea {
     padding:2px;
     margin: 5px 0 10px 0;
     color: #8e97a0;  
+    resize: vertical;
+}
+
+.button {
+    background-color: #4da8a3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.tile{
+    border-style: solid;
+    /* width: 100%; */
+    height: 200px;
+    margin: 25px 0;
+}
+
+.tile img{
+    width: 100%;
+    height: 100%;
+}
+#leftCol{
+    float:left;
+    width: 300px;
+}
+
+#rightCol{
+    float:right;
+    width: 300px;
 }
